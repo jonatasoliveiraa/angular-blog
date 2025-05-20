@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  padding: 1.875rem 1.125rem;
+
+  .containerBoxNavigation {
+    display: flex;
+    align-items: center;
+    color: #888888;
+    font-weight: 600;
+    gap: 2.5rem;
+
+    div:nth-child(1) {
+      a {
+        color: white;
+        text-decoration: none;
+        display: grid;
+        align-content: center;
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 50%;
+        font-size: 1.25rem;
+        background-color: #fd2d84;
+      }
+    }
+    .navigationItems > ul {
+      font-size: 0.75rem;
+      list-style: none;
+      gap: 2.5rem;
+      display: flex;
+
+      li:hover {
+        cursor: pointer;
+        color: #fff;
+      }
+    }
+  }
+  div:nth-child(2) {
+    gap: 1rem;
+    display: flex;
+  }
+}

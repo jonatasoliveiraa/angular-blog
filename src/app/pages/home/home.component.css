@@ -1,0 +1,8 @@
+.article {
+  display: flex;
+}
+.aside {
+  display: grid;
+  gap: 2rem;
+  padding-inline: 0.75rem;
+}

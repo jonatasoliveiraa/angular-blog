@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="cont">
+    <div>
+      <a [routerLink]="['/content', id]">
+        <img src="{{ imageCover }}" alt="" />
+      </a>
+    </div>
+
+    <div>
+      <p class="date">
+        {{ dateContent }}
+      </p>
+      <h3>
+        <a [routerLink]="['/content', id]">
+          {{ titleContent }}
+        </a>
+      </h3>
+    </div>
+  </div>
+</div>

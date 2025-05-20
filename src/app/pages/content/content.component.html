@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="contentTitle">
+    <h1>{{ titleContent }}</h1>
+    <a [routerLink]="['']">Back</a>
+  </div>
+  <div>
+    <div>
+      <p>
+        {{ descriptionContent }}
+      </p>
+      <ul>
+        <li *ngFor="let item of listContent">
+          <p>{{ item.label }}</p>
+          <p>{{ item.value }}</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

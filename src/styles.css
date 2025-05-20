@@ -1,1 +1,56 @@
 /* You can add global styles to this file, and also import other style files */
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font: inherit;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  --background-primary: #111111;
+
+  --color-focus-hover: #fff;
+
+  --content-primary: #888888;
+  --content-secondary: #d0d0d0;
+  --content-tertiary: #4d4d4d;
+
+  --font-family: "Poppins", sans-serif;
+}
+
+html {
+  font-family: var(--font-family);
+}
+
+body {
+  margin: auto;
+  max-width: 90rem;
+  padding: 1.25rem 2.5rem 2.5rem;
+  background-color: var(--background-primary);
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+button,
+a {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
